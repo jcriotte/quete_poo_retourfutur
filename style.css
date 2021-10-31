@@ -1,0 +1,51 @@
+h2 {
+    text-align: center;
+}
+
+.containers {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    align-items: center;
+    margin: 10px;
+}
+
+.container {
+    margin: 20px;
+}
+
+.destination, .present, .result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(53, 51, 49);
+    width: 800px;
+    height: 120px;
+    flex-flow: column wrap
+}
+
+.compteur {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.label {
+    background-color: brown;
+    color: bisque;
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+}
+
+.time {
+    background-color: black;
+    color: chocolate;
+    width: 100px;
+    height: 50px;
+    font-family: 'DogicaPixelRegular';
+    font-weight: 700;
+    margin: 5px;
+    text-align: center;
+}
